@@ -1,0 +1,7 @@
+
+# enviroment
+.env
+
+node_modules
+dist
+.idea
