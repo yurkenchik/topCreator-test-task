@@ -28,14 +28,14 @@ cd topcreator-test-task
 5. **Збирання TypeScript** – необов’язкова частина, якщо вам потрібно скомпілювати TypeScript у JavaScript для продакшену.
 6. **Використані технології** – перелік основних інструментів, які використовуються в проекті.
 
-Available Scripts
-In the project directory, you can run the following scripts:
+Доступні скрипти
+У директорії проєкту ви можете виконати такі скрипти:
 
 npm run start:dev
-Runs the server in development mode using ts-node to execute TypeScript files directly.
+Запускає сервер у режимі розробки, використовуючи ts-node для безпосереднього виконання файлів TypeScript.
 
 npm run build
-Compiles the TypeScript files into JavaScript. The output will be located in the dist folder.
+Компілює файли TypeScript у JavaScript. Вивід буде розташований у папці dist.
 
 npm run start
-Runs the compiled JavaScript server from the dist folder. Make sure to run npm run build before this.
+Запускає скомпільований сервер JavaScript з папки dist. Перед запуском цього скрипту, переконайтеся, що ви виконали npm run build.
